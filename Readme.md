@@ -52,7 +52,7 @@ branch 'main' set up to track 'origin/main'.
 - * (clear) - limpa o git bash.
 - (git add . ) Este comando coloca todos os arquivo na área de staging.
  
-
+- * (git merge nome da branch)
 
 
 
