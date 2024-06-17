@@ -35,7 +35,7 @@ fatal: unable to auto-detect email address (got 'llima@LimaSlave.(none)')
 - * (git remote add origin <>)copiamos o link que foi gerado lá no github no Quick Step.
 - remote é a conexão que estamos criando entre a máquina local com o github na nuvem origin é o nome que estamo dando    - para o repositório no github e o link dele.
 - * (git push -u origin main) . Comando que coloca o nosso arquivo na nuvem.
-- Abre uma aba para autenticarmos a conexão. Podemos os usar o Sign in with your browser, colocamos nossas credenciais e - senha e depois clicamos em: Authorise git-ecosystem.
+- Abre uma aba para autenticarmos a conexão. Podemos os usar o Sign in with your browser, colocamos nossas credenciais e - senha e depois clicamos em: Authorise git-ecosystem.Damos este comando só uma vez depois da conexão
 - Como mensagem de que a conexão foi executada com sucesso aparece a seguinte mensagem:
 $ git push -u origin main
 Enumerating objects: 6, done.
@@ -51,7 +51,13 @@ branch 'main' set up to track 'origin/main'.
 - Qualquer arquivo Readme.md aparece na página principal do repositório.
 - * (clear) - limpa o git bash.
 - (git add . ) Este comando coloca todos os arquivo na área de staging.
- 
+- * git push origin main  
+- Quando clicamos no nome do commit que está no github vemos a história de todas as mudanças que ocorreram com o nosso    - arquivo.
+- Clicando em cima do número de commits, vemos quando e quem fez as alterações no arquivo.
+- Para criarmos uma branch na linha do tempo.
+- * git checkout -b "Novas alterações" . Não aceita nomes longos tem que ser sucinto. Sai da principal e cai na branch  -  paralela.
+- * git add.
+- * git commit -m "Novas alterações"
 
 
 
